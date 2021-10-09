@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(7, 80, 0);
+}
+h1, h2, h3 {
+  text-align: center;
+}
+#wrapper{
+
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+div{
+  width: 90%;
+  margin: auto;
+}
+.itembox{
+  border-style: double;
+  border-radius: 25px;
+  box-shadow: 15px 15px 10px white;
+  background-color: white;
+  color: black;
+  padding: 7px;
+}
+.favorite{
+  border-style: outset;
+  border-radius: 25px;
+  box-shadow: 15px 15px 10px white;
+  background-color: gold;
+  color: green;
+  padding: 7px;
+}
+ol{
+  background-color: gold;
+  list-style-type: lower-greek;
+
+}
+ul{
+  background-color: gold;
+  list-style-type: lower-greek;
+}
+
+  
+  
