@@ -1,0 +1,36 @@
+.pix{
+  height: 300px;
+}
+
+main{
+  background-color: rgba(37, 36, 43, 0.993);
+  color: whitesmoke;
+  }
+
+body{
+ background-image: url(files/imagesUnit6/background.jpg);
+background-size: cover;
+}
+
+#wrapper{
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul{
+  list-style-image: url(files/imagesUnit6/Elon_token_32x32.png);
+}
+
+#borderimg1 {
+  border: 20px solid;
+  padding: 15px;
+  border-image: url(files/imagesUnit6/border2.png) 30 round;
+}
+
+#borderimg2 {
+  border: 20px solid;
+  padding: 0px;
+  border-image: url(files/imagesUnit6/border2.png) 30 round;
+  height: 300px;
+}
