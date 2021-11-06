@@ -1,0 +1,6 @@
+nav{
+  background-color: greenyellow;
+  width: 270px;
+  padding: 10px;
+  border-style: groove;
+}
