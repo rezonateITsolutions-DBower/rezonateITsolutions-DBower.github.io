@@ -1,0 +1,168 @@
+header, nav, main, footer { display: block; } 
+* {box-sizing: border-box; }
+body { background-color: #330000;
+       font-family: Verdana, Arial, sans-serif;
+}
+#wrapper { width: 960px;
+           margin: auto;
+		   background-color: #F4E8BC;
+		   color: #330000;
+		   box-shadow: 5px 5px 5px #000000;
+}
+h1 { background-image: url(files/imagesunit9-2/Evil_Bug.png);
+       background-size: contain;
+     background-repeat: no-repeat;
+     background-color: #F4E8BC;
+	 height: 110px;
+	 font-family: Georgia, "Times New Roman", serif;
+	 font-size: 4.5em;
+     padding-left: 220px;
+	 padding-top: 20px;
+	 text-shadow: 3px 3px 3px #90745D;
+	 margin-bottom: 0;
+}
+nav { padding-top: 10px;
+      float: left;
+      width: 200px; 
+}
+nav ul { list-style-type: none; 
+       padding-left: 0;
+	 }
+nav li { padding-bottom: 5px;
+padding-left: 5px;
+       font-weight: bold;
+}
+nav li:hover { 
+       background: #90745D;
+}
+
+nav a { text-decoration: none; }
+nav a:link { color: #330000; }
+nav a:visited{ color: #90745D; }
+nav a:hover {        color:#FFFFCC;;
+               }
+
+
+main { background-color: #FFFFCC;
+          margin-left: 200px;
+          padding: 1px 20px 20px 20px;   
+		  min-height: 300px;
+}
+main img { float: right;
+              padding: 20px;
+}
+
+footer { background-color: #FFFFCC;
+       margin-left: 200px;
+       padding: 20px;
+       text-align: center;
+	   font-size: small;
+	   font-style: italic;
+}
+
+.clear{
+  clear: both;
+}
+
+/*Add your mobile CSS rules below*/
+
+
+@media only screen and (max-width: 720px) {
+
+header { 
+margin: 0px 0px;
+padding: 0px 20px 0px;
+width: 100%;
+font-size: 0.6em;
+} 
+
+#wrapper { 
+width: 100%;
+margin: 0px 0px;
+padding: 0px 0px;
+}
+
+h1 { 
+background-image: none;
+padding: 0px 0px;
+margin: 20px 0px;
+width: 100%;
+}
+
+nav { 
+  margin: 0px 0px;
+padding: 0px 275px;
+float: none;
+width: 100%; 
+border-style: solid;
+}
+
+nav ul { 
+margin: 0px 0px;
+padding: 0px 0px;
+width: 100%;
+font-size: 1em;
+border-style: soild;
+}
+
+nav li { 
+margin: 0px 0px;
+padding: 0px 0px;
+width: 100%;
+border-style: soild;
+}
+
+nav li:hover { 
+width: 100%;
+margin: 0px 0px;
+padding: 0px 0px;
+border-style: soild;
+}
+
+
+
+main {
+margin: 0px 0px;
+padding: 0px 0px;
+width: 100%;   
+}
+
+main img { 
+float: none;
+padding: 0px 0px;
+margin: 0px 0px;
+width: 100%;
+}
+
+footer { 
+margin: 0px 0px;
+padding: 0px 0px;
+width: 100%;
+}
+
+ h4 {
+  margin: 0px 0px;
+  padding: 0px 100px;
+  width: 100%;
+  
+}
+p{
+  margin: 0px 0px;
+  padding: 0px 100px;
+  width: 100%;
+  
+}
+
+ h2, h3{
+  margin: 0px 0px;
+  padding: 0px 220px;
+  width: 100%;
+  
+}
+
+h1{
+  margin: 0px 0px;
+  padding: 0px 120px;
+  width: 100%;
+}
+  }
